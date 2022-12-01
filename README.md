@@ -1,5 +1,5 @@
-[issues]:    https://github.com/nshardy/Molecule/issues
-[pulls]:     https://github.com/nshardy/Molecule/pulls
+[issues]:    https://github.com/nshardy/Molecule/blob/main/issues
+[pulls]:     https://github.com/nshardy/Molecule/blob/main/pulls
 
 > This is inspired by [Atom](https://atom.io), which sadly will be archived on December 15, 2022. More can be learned from their [official announcement](https://github.blog/2022-06-08-sunsetting-atom/), and their [GitHub Page](https://github.com/atom/atom)
 
