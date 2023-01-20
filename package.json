@@ -1,10 +1,11 @@
 {
   "name": "molecule",
   "version": "0.0.0",
-  "description": "> This is inspired by [Atom](https://atom.io), which sadly will be archived on December 15, 2022. More can be learned from their [official announcement](https://github.blog/2022-06-08-sunsetting-atom/), and their [GitHub Page](https://github.com/atom/atom)",
-  "main": "index.js",
+  "description": "This is inspired by [Atom](https://atom.io)",
+  "main": "src/index.js",
   "scripts": {
-    "run": "electron ."
+    "test": "NODE_ENV=developer electron .",
+    "prod": "NODE_ENV=production electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/nshardy/Molecule/issues"
   },
-  "homepage": "https://github.com/nshardy/Molecule#readme"
+  "homepage": "https://github.com/nshardy/Molecule#readme",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-reloader": "^1.2.3"
+  }
 }
