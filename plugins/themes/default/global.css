@@ -1,0 +1,47 @@
+/* global.css */
+
+html {
+    font-family: 'Jetbrains Mono';
+}
+
+.welcomeMessage {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.titleBar {
+    height: 36px;
+    margin: -7px;
+
+    text-align: center;
+    -webkit-app-region: drag;
+}
+.theme {
+    position: absolute;
+    float: right;
+    top: 7px;
+    right: 9px;
+}
+
+#themeDropdown {
+    text-align: left;
+    width: 104px;
+}
+
+#todoDescription, #todoName {
+    margin-left: 10px;
+    resize: none; 
+    width: 45%;
+}
+.todoId, #createTodo {
+    margin-left: 20px;
+}
+
+.vl {
+    border-left: 6px solid;
+    position: absolute;
+    height: 70%;
+    margin-left: -3px;
+    left: 50%;
+    top: 18%;
+}

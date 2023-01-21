@@ -1,11 +1,14 @@
 {
   "name": "molecule",
-  "version": "0.0.0",
-  "description": "This is inspired by [Atom](https://atom.io)",
+  "version": "0.0.1",
+  "description": "This is just a testing application to experiment with Electron, JavaScript, TypeScript, HTML and CSS.",
   "main": "src/index.js",
   "scripts": {
-    "test": "NODE_ENV=developer electron .",
-    "prod": "NODE_ENV=production electron ."
+    "devtest": "NODE_ENV=developer electron .",
+    "prodtest": "NODE_ENV=production electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "repository": {
     "type": "git",
@@ -17,8 +20,17 @@
     "url": "https://github.com/nshardy/Molecule/issues"
   },
   "homepage": "https://github.com/nshardy/Molecule#readme",
+  "dependencies": {
+    "electron-reloader": "^1.2.3",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.1.0"
+  },
   "devDependencies": {
-    "electron": "^22.0.0",
-    "electron-reloader": "^1.2.3"
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.0.2"
   }
 }
