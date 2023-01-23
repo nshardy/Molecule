@@ -1,4 +1,4 @@
-function initThemeSelector () {
+function initThemeLoader () {
   // gets all constants
   const themeSelect = document.getElementById('themeDropdown')
   const themeStylesheet = document.getElementById('themeStylesheetLink')
@@ -24,4 +24,4 @@ function initThemeSelector () {
   themeSelect.value = currentTheme
 }
 
-initThemeSelector()
+initThemeLoader()

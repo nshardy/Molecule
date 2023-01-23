@@ -5,6 +5,6 @@ html {
     color: rgb(170, 170, 170);
 }
 
-.titleBar {
+.titleBar, #projectView, .placeholder {
     background-color: rgb(50, 50, 50);
 }
