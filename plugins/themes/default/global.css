@@ -15,7 +15,9 @@ html {
     display: grid;
     grid-area: titleBar;
     height: 36px;
-    margin: -7px;
+    margin-top: -7px;
+    margin-left: -57px;
+    margin-right: -7px;
 
     text-align: center;
     -webkit-app-region: drag;
@@ -43,15 +45,15 @@ html {
 
 
 
-.container {
+#container {
     display: grid;
-    grid-template-columns: .5fr 1fr .5fr;
+    grid-template-columns: 32px 150px 1fr .5fr;
     grid-template-rows: 29px 100vh;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "titleBar titleBar titleBar"
-      "projectView textarea placeholder";
+      "sidebar titleBar titleBar titleBar titlebar"
+      "sidebar projectView textarea textarea textarea";
 }
 
 .textarea { 
@@ -66,6 +68,19 @@ html {
     resize: horizontal;
     overflow: auto;
 }
+#hideShowPlaceholder {
+    top: 40px;
+    left: 100px;
+    position: absolute;
+}
+
+#sidebar {
+    display: grid;
+    grid-area: sidebar;
+    margin-left: -7px;
+    height: 100%;
+}
+
 #projectView {
     grid-area: projectView;
     height: 100%;
@@ -74,6 +89,6 @@ html {
     overflow: auto;
 }
 #hideshowProjectView {
-    top: 40px;
+    top: 45px;
     position: absolute;
 }
