@@ -96,21 +96,17 @@ If you wish to contribute to this project, it would be much appreciated; however
 // functions
 function initFunctionName () {
 	// gets all constants
-	const themeSelect = document.getElementById('themeDropdown')
-	const themeStylesheet = document.getElementById('themeStylesheetLink')
+	const exampleElement = document.getElementById('...')
+	const exampleCSS = document.getElementById('...')
 
 	// changes the active theme
 	function activateTheme (themeName) {
-		themeStylesheet.setAttribute('href', '...')
+		exampleCSS.setAttribute('href', '...')
 	}
 
-	themeSelect.addEventListener('change', () => {
+	exampleElement.addEventListener('change', () => {
 		//...
 	})
-
-	// sets dropdown to current theme and activates it
-	activateTheme(currentTheme)
-	themeSelect.value = currentTheme
 }
 
 initFunctionName()
