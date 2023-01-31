@@ -1,3 +1,5 @@
+// themeController.js
+
 function initThemeLoader () {
   // gets all constants
   const themeSelect = document.getElementById('themeDropdown')
@@ -15,6 +17,7 @@ function initThemeLoader () {
       themeSelect.value = localStorage.getItem('theme') || 'lightmode'
       return
     }
+    
     activateTheme(themeSelect.value)
     localStorage.setItem('theme', themeSelect.value)
   })

@@ -1,6 +1,6 @@
 {
   "name": "molecule",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is just a testing application to experiment with Electron, JavaScript, TypeScript, HTML and CSS.",
   "main": "src/index.js",
   "scripts": {

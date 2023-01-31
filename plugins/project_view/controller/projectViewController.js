@@ -1,3 +1,5 @@
+// projectViewController.js
+
 function initShowHide () {
   // gets all constants
   const menu = document.getElementById('projectView')
