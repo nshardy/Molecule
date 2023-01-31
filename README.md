@@ -22,12 +22,12 @@ If there are any issues, please submit them to [Issue Tracker](https://github.co
 
 
 ### Install
-Run ** npm install** to install all dependencies
+Run **_npm install_** to install all dependencies
 ```terminal
 npm install
 ```
 
-If for some reason it doesn't install the dev-dependencies, run **npm install --save-dev**
+If for some reason it doesn't install the dev-dependencies, run **_npm install --save-dev_**
 ```terminal
 npm install --save-dev
 ```
@@ -36,14 +36,14 @@ npm install --save-dev
 
 ### Running
 #### Developer
-If you want to run it in developer mode, which allows you to be able to see the Chromium Console, run **npm run devtest**
+If you want to run it in developer mode, which allows you to be able to see the Chromium Console, run **_npm run devtest**_
 ```terminal
 npm run devtest
 ```
 
 
 #### Production
-If you want to run it in production mode, which disables Developer Tools, run **npm run prodtest**
+If you want to run it in production mode, which disables Developer Tools, run **_npm run prodtest_**
 ```terminal
 npm run prodtest
 ```
@@ -74,6 +74,10 @@ If you wish to contribute to this project, it would be much appreciated; however
 #### HTML
 ```html
 <!DOCTYPE html>
+<!-- 
+	Author: firstName lastName
+	Github: githubAccountLink
+-->
 <html lang="en">
 
 	<!-- Stylesheets -->
@@ -99,7 +103,10 @@ If you wish to contribute to this project, it would be much appreciated; however
 
 #### JavaScript
 ```javascript
-// fileName.js
+/* fileName.js
+*  Author: firstName lastName
+*  Github: githubAccountLink
+*/
 
 // functions
 function initFunctionName () {
@@ -123,8 +130,10 @@ initFunctionName()
 
 #### Cascading Style Sheets (CSS)
 ```css
-/* fileName.css */
-
+/* fileName.css
+*  Author: firstName lastName
+*  Github: githubAccountLink
+*/
 html {
 	/*...*/
 }

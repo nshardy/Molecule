@@ -6,8 +6,15 @@
 #### Enhancement
 - Project View
 	- Left sidebar
-		- Hide and show with button press
-		- TODO: implement and show open File Directory
+		- Hide and show with button press,
+		- TODO: implement and show open File Directory,
+- README.md
+	- Improved layout,
+	- Added install, contribution, rules, author sections,
+	- Changed the layout of file headers to include author and github acct,
+- CHANGELOG.md
+	- Added changelog to allow Version Control outside of Git/Github,
+	- Shows changes to application over time,
 
 #### Bug Fixes
 - Theme Selector

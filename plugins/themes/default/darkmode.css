@@ -1,10 +1,14 @@
-/* darkmode.css */
+/* darkmode.css 
+* Author: Noah Hardy
+* Github: https://github.com/nshardy
+*/
 
 html {
     background-color: rgb(75, 75, 75);
     color: rgb(170, 170, 170);
 }
 
-.titleBar, #projectView, .placeholder, #sidebar {
+.titleBar, #projectView, .placeholder, #sidebar, #themeDropdown {
     background-color: rgb(50, 50, 50);
+    color: rgb(170, 170, 170);
 }

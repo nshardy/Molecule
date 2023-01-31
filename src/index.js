@@ -1,4 +1,7 @@
-// index.js
+/* index.js
+*  Author: Noah Hardy
+*  Github: https://github.com/nshardy
+*/
 
 // constants
 const { app, BrowserWindow, Menu } = require('electron')

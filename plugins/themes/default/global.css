@@ -1,4 +1,7 @@
-/* global.css */
+/* global.css
+* Author: Noah Hardy
+* Github: https://github.com/nshardy
+*/
 
 html {
     font-family: 'Jetbrains Mono';
@@ -32,6 +35,12 @@ html {
 #themeDropdown {
     text-align: left;
     width: 104px;
+
+    border: none;
+    user-select: none;
+}
+.form-control:focus {
+    box-shadow: none!Important;
 }
 
 .vl {

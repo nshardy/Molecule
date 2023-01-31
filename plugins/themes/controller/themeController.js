@@ -1,4 +1,7 @@
-// themeController.js
+/* themeController.js
+*  Author: Noah Hardy
+*  Github: https://github.com/nshardy
+*/
 
 function initThemeLoader () {
   // gets all constants

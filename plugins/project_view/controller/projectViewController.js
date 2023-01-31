@@ -1,4 +1,7 @@
-// projectViewController.js
+/* projectViewController.js
+*  Author: Noah Hardy
+*  Github: https://github.com/nshardy
+*/
 
 function initShowHide () {
   // gets all constants
@@ -21,7 +24,6 @@ function initShowHide () {
       toggleFalse(menu, menuButton, container)
     else
       toggleTrue(menu, menuButton, container)
-
   }
 
   // onclick function 

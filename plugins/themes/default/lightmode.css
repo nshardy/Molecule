@@ -1,10 +1,14 @@
-/* lightmode.css */
+/* lightmode.css 
+* Author: Noah Hardy
+* Github: https://github.com/nshardy
+*/
 
 html {
     background-color: rgb(255, 255, 255);
     color: rgb(50, 50, 50);
 }
 
-.titleBar, #projectView, .placeholder, #sidebar {
+.titleBar, #projectView, .placeholder, #sidebar, #themeDropdown {
     background-color: rgb(205, 205, 205);
+    color: rgb(50, 50, 50);
 }
