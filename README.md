@@ -22,12 +22,12 @@ If there are any issues, please submit them to [Issue Tracker](https://github.co
 
 
 ### Install
-Run **_npm install_** to install all dependencies
+Run the command to install all dependencies
 ```terminal
 npm install
 ```
 
-If for some reason it doesn't install the dev-dependencies, run **_npm install --save-dev_**
+If for some reason it doesn't install the dev-dependencies, run the command
 ```terminal
 npm install --save-dev
 ```
@@ -66,7 +66,8 @@ If you wish to contribute to this project, it would be much appreciated; however
 ### Rules
 1. Please DO NOT edit [README.md](README.md) and [CHANGELOG.md](CHANGELOG.md) files,
 2. Lint the JavaScript, TypeScript, HTML, CSS (if you can, or follow other examples in the project),
-3. Comment what is new, or explain, your code.
+3. Use comments to show what's new, explain, or organize your code.
+4. Name your files based on what they do (make it self-explanitory), and put the author and your github account link at the top of the file.
 
 
 
@@ -77,6 +78,11 @@ If you wish to contribute to this project, it would be much appreciated; however
 <!-- 
 	Author: firstName lastName
 	Github: githubAccountLink
+	
+    Contributors:
+      - Johnny Appleseed [https://www.github.com/johnnyappleseed]
+      - John Doe         [https://www.github.com/johndoe]
+      - Jane Doe         [https://www.github.com/janedoe]
 -->
 <html lang="en">
 
@@ -106,6 +112,11 @@ If you wish to contribute to this project, it would be much appreciated; however
 /* fileName.js
 *  Author: firstName lastName
 *  Github: githubAccountLink
+* 
+*  Contributors:
+*    - Johnny Appleseed [https://www.github.com/johnnyappleseed]
+*    - John Doe         [https://www.github.com/johndoe]
+*    - Jane Doe         [https://www.github.com/janedoe]
 */
 
 // functions
@@ -133,6 +144,11 @@ initFunctionName()
 /* fileName.css
 *  Author: firstName lastName
 *  Github: githubAccountLink
+* 
+*  Contributors:
+*    - Johnny Appleseed [https://www.github.com/johnnyappleseed]
+*    - John Doe         [https://www.github.com/johndoe]
+*    - Jane Doe         [https://www.github.com/janedoe]
 */
 html {
 	/*...*/

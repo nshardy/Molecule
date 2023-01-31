@@ -1,6 +1,9 @@
 /* index.js
 *  Author: Noah Hardy
 *  Github: https://github.com/nshardy
+*
+*  Contributors:
+*    - Noah Hardy [https://www.github.com/nshardy]
 */
 
 // constants
