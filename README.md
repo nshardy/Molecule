@@ -20,6 +20,7 @@ If there are any issues, please submit them to [Issue Tracker](https://github.co
 
 
 
+
 ### Install
 Run ** npm install** to install all dependencies
 ```terminal
@@ -32,6 +33,7 @@ npm install --save-dev
 ```
 
 
+
 ### Running
 #### Developer
 If you want to run it in developer mode, which allows you to be able to see the Chromium Console, run **npm run devtest**
@@ -39,11 +41,13 @@ If you want to run it in developer mode, which allows you to be able to see the 
 npm run devtest
 ```
 
+
 #### Production
 If you want to run it in production mode, which disables Developer Tools, run **npm run prodtest**
 ```terminal
 npm run prodtest
 ```
+
 
 
 #### Building
@@ -53,14 +57,17 @@ npm run make
 ```
 
 
+
 ### Contributing
 If you wish to contribute to this project, it would be much appreciated; however, there will be [rules](#rules) to be followed. 
+
 
 
 ### Rules
 1. Please DO NOT edit [README.md](README.md) and [CHANGELOG.md](CHANGELOG.md) files,
 2. Lint the JavaScript, TypeScript, HTML, CSS (if you can, or follow other examples in the project),
 3. Comment what is new, or explain, your code.
+
 
 
 ### Format
@@ -89,6 +96,7 @@ If you wish to contribute to this project, it would be much appreciated; however
 </html>
 ```
 
+
 #### JavaScript
 ```javascript
 // fileName.js
@@ -112,6 +120,7 @@ function initFunctionName () {
 initFunctionName()
 ```
 
+
 #### Cascading Style Sheets (CSS)
 ```css
 /* fileName.css */
@@ -124,6 +133,7 @@ html {
 	/*...*/
 }
 ```
+
 
 
 ### Author
