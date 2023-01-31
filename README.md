@@ -7,8 +7,8 @@ This is a side project I'm making while I'm in school, for my AAS-T in Software 
 ## Table of Contents
 - [Install](#install)
 - [Running](#running)
-	- [Developer](#developer)
-	- [Production](#production)
+    - [Developer](#developer)
+    - [Production](#production)
 - [Building](#building)
 
 
